@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding: 1em 15em 5em;
+    padding: 1em 5em 5em;
 }
 
 .header-logo {
@@ -48,6 +48,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 3em;
+    padding-bottom: 10em;
 }
 
 .description {
@@ -74,4 +75,36 @@ button, .cta {
     background-color: rgb(109, 114, 116);
     display: flex;
     align-items: center;
+}
+
+.content2 {
+    padding: 3em 0;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.items {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: solid 4px #3882f6;
+    border-radius: 1em;
+    margin-bottom: .5em;
+}
+
+.subtext {
+    text-align: center;
+    width: 150px;
+    font-weight: 300;
 }
