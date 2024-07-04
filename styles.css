@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 1em 15em;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links, .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15em;
+}
+
+.description {
+
+}
+
+button {
+    border-radius: .5em;
+    border: none;
+    padding: 0.5em 1.5em;
+}
+
+button, .cta {
+    background-color: #3882f6;
+    color: white;
+}
+
+.placeholder {
+
+    width: 320;
+    height: 180;
+    padding: 5em;
+    background-color: rgb(109, 114, 116);
+}
