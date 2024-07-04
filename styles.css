@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
-    padding: 1em 15em;
+    padding: 1em 15em 5em;
 }
 
 .header-logo {
@@ -46,13 +46,12 @@ ul {
 
 .content1 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 15em;
+    justify-content: center;
+    gap: 3em;
 }
 
 .description {
-
+    width: 450px;
 }
 
 button {
@@ -66,10 +65,13 @@ button, .cta {
     color: white;
 }
 
-.placeholder {
+.button1 {
+    margin-top: 1em;
+}
 
-    width: 320;
-    height: 180;
-    padding: 5em;
+.placeholder {
+    padding: 0 8em;
     background-color: rgb(109, 114, 116);
+    display: flex;
+    align-items: center;
 }
